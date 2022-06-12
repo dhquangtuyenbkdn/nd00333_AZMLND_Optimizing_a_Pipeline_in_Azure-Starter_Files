@@ -14,6 +14,8 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+    This dataset contains data about user for using loan with same info same as age, job
+    We seek to predict for hight rate loan user with age, job, have hounsing or not
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
