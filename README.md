@@ -77,6 +77,7 @@ This model is then compared to an Azure AutoML run.
                         primary_metric='accuracy',
                         training_data=dataset,
                         label_column_name='y',
+                        max_concurrent_iterations=4,
                         n_cross_validations= 5)
         
     4: Submit AutoML to Experiment to train model
