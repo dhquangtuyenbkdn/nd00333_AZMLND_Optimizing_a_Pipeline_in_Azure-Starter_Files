@@ -46,6 +46,7 @@ This model is then compared to an Azure AutoML run.
     5: Research report with Best run model
 
 **What are the benefits of the parameter sampler you chose?**
+    Refer: https://github.com/abhiojha8/Optimizing_ML_Pipeline_Azure
     - RandomParameterSampling(
         {
             '--C' : choice(0.001,0.01,0.1,1,10,100),
